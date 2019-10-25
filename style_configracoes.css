@@ -1,0 +1,47 @@
+html, body{
+    background: #E6E9EE;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height:100%;
+}
+
+.menu_vertical{
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background: #252D3A;
+    padding: 0px;
+    float: left;
+}
+.main_bar{
+    float: left;
+    margin: 0;
+    padding-top: 5px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main_bar li a{
+    background-color: none; /* Grey background color */
+    color: white; /* Cor da fonte */
+    display: block; 
+    padding: 12px; /* Altura dos blocos */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#logo_menu{
+    padding: 20px;
+}
+
+.main_bar li:hover span{
+    color: #FF7600;
+}
+
+#em-dev{
+    padding-left: 38%;
+    padding-top: 20%;
+}

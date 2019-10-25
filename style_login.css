@@ -1,0 +1,100 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height:100%;
+}
+
+.lado_esquerdo{
+    float: left;
+    margin: 0;
+    padding: 0px;
+    width: 70%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(44deg, #E9A062, #DB3D87, #662BA3 41%, #22DB8D);
+    background-size: 400%;
+    animation: bganimation 15s infinite;
+}
+
+.lado_direito{
+    float: right;
+    position: relative ;
+    background-color: #15172C;
+    width: 30%;
+    height: 100%;
+    
+}
+
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes bganimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background: white;
+    text-align: center;
+    border-radius: 7px;
+
+    box-shadow: 0px 0px 1em #15172C;
+    -webkit-box-shadow: 0px 0px 1em #15172C;
+    -moz-box-shadow: 0px 0px 1em #15172C;
+
+}
+
+.box input[type = "text"], .box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 30px auto;
+    text-align: left;
+    border: 1px solid #15172C;
+    padding: 15px 10px;
+    width: 280px;
+    color: #15172C;
+    outline: none;
+    border-radius: 8px;
+    transition: 0.25s;
+}
+
+.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+    width: 270px;
+    border-color: #3AADAA;
+}
+
+.box input[type = "submit"]{
+    border: 0;
+    background: #15172C;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 40px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type = "submit"]:hover{
+    background: #FF7600;
+    color: white;
+}

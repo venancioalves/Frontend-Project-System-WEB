@@ -1,0 +1,112 @@
+html, body{
+    background: #E6E9EE;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height:100%;
+}
+
+.menu_vertical{
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background: #252D3A;
+    padding: 0px;
+    float: left;
+}
+.main_bar{
+    float: left;
+    margin: 0;
+    padding-top: 5px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main_bar li a{
+    background-color: none; /* Grey background color */
+    color: white; /* Cor da fonte */
+    display: block; 
+    padding: 12px; /* Altura dos blocos */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#logo_menu{
+    padding: 20px;
+}
+
+.main_bar li:hover span{
+    color: #FF7600;
+}
+
+.div_produtos{
+    width: 85%;
+    height: 100%;
+    padding: 0;
+    float: right;
+}
+
+#buscar{
+    background: none;
+    width: 97%;
+    height: 5%;
+    position: relative;
+    padding: 5px;
+    margin: 12px;
+    
+}
+
+.botoes{
+    float: right;
+    padding: 5px;
+    border: 5px;
+    background-color: #252D3A;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    }
+
+#nome_botao{
+    text-decoration: none;
+    color: white
+}
+
+.botoes:hover{
+    background: #FF7600;
+    color: #15172C;
+}
+
+#caixa_busca{
+    float: left;
+    width: 600px;
+    height: 98%;
+    border: 5px;
+    padding: 0;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 0.5em rgb(212, 212, 212);
+}
+
+#txt_buscar{
+    width: 550px;
+    height: 35px;
+    float: left;
+    border: none;
+    border-radius: 5px;
+}
+
+#botao_pesquisa{
+    width: 47px;
+    height: 37px;
+    float: right;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
